@@ -46,6 +46,13 @@ step 7: create a html file using following command.
 step 8: upload the folder in the s3 bucket by clicking the "upload folder".  Select the uploaded file and in the action column select make it public using ACL.
 step 9: copy the "Object URL" of the uploaded file. (http://ec2-54-90-62-209.compute-1.amazonaws.com/)
 
+##### Install nginx in the EC2 instance 5
+
+step 1: Connect the ec2 instance by using above steps
+step 2: Now open the terminal and type the commands
+step 3: install the nginx by using remote execution
+step 4: Once all the steps are performed copy the Public IPv4 DNS and open it in the browser.
+step 5: You can see the html webpage which shows the nginx is successfully installed on the given ec2 instance.
 
 
              
