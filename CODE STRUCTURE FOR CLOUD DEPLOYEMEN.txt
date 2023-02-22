@@ -1,0 +1,38 @@
+CODE STRUCTURE FOR CLOUD DEPLOYEMENT TASK
+
+1. Create VPC and Subnet
+
+In this step I have used AWS console to create a Virtual Private Cloud(VPC) and a subnet which I used for creating my EC2 instance.
+
+2. Deploy EC2 instance and connect it to subnet.
+
+Using the VPC and subnet created in previous method I created a Elastic Compute Cloud (EC2) named instance_sangee and for that ec2 instance I created a IAM role through which I was able to estabilish connection with Amazon S3 Bucket.
+
+3. Create S3 bucket and deploy static website
+
+using the  python code I created my html hello world website
+
+echo "<html><body>Hello World!</html></body> > index.html
+
+in this way I created my html website
+
+4. Installing nginx in EC2 instances
+
+After connecting to the ec2 instance, I opened the terminal and initiated the following commands
+
+~sudo yum updates
+~cat /etc/os-release
+~sudo vim/etc/yu.repos.d/nginx.repo
+~sudo yum install nginx
+~sudo service nginx start
+~curl localhost:80 
+~start nginx.service
+
+
+
+->using these command I installed nginx in  EC2 instance and created the python code with public access
+
+
+
+
+
