@@ -42,9 +42,9 @@ step 6: make directory for website.
              mkdir comm_task 
              cd comm_task
 step 7: create a html file using following command.
-             echo "<html><body><h1> HELLO WORLD </h1></body></html>"    >task_comm.html
+  
 step 8: upload the folder in the s3 bucket by clicking the "upload folder".  Select the uploaded file and in the action column select make it public using ACL.
-step 9: copy the "Object URL" of the uploaded file. (https://s3sangeebucket.s3.amazonaws.com/task_comm.html)
+step 9: copy the "Object URL" of the uploaded file. (http://ec2-54-90-62-209.compute-1.amazonaws.com/)
 
 
 
