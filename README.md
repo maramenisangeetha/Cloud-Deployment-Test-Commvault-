@@ -1,4 +1,4 @@
 # Cloud-Deployment-Test-Commvault-
 
-## Steps for creating Amazon EC2 cloud virtual machine instance 2
+## Create VPC and Subne 2
 step 1.
